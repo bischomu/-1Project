@@ -1,0 +1,42 @@
+@font-face{
+    font-family: brightersans;
+    src: url('./BrighterSans-Light.otf') format('opentype');
+}
+h1{
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'brightersans';
+    color:antiquewhite;
+}
+.gradientOne{
+    margin: 0;
+    background: linear-gradient(to bottom, #FF8558, #00595C);
+    min-height: 100vh;
+}
+.gradientTwo{
+    margin: 0;
+    background: linear-gradient(to bottom, #006989, #eaebed);
+    min-height: 100vh;
+}
+.gradientThree{
+    background: linear-gradient(to bottom, #e1bb80, #352208, #e1bb80);
+    min-height: 100vh;
+}
+
+.one{
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'brightersans';
+}
+.two{
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'brightersans';
+    color:#eaebed;
+}
+.three{
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'brightersans';
+    color:aliceblue
+}
