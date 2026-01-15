@@ -2,41 +2,157 @@
     font-family: brightersans;
     src: url('./BrighterSans-Light.otf') format('opentype');
 }
-h1{
-    text-align: center;
-    padding-top: 20%;
+
+body{
+    margin: 0;
     font-family: 'brightersans';
-    color:antiquewhite;
 }
-.gradientOne{
-    margin: 0;
-    background: linear-gradient(to bottom, #FF8558, #00595C);
-    min-height: 100vh;
-}
-.gradientTwo{
-    margin: 0;
-    background: linear-gradient(to bottom, #006989, #eaebed);
-    min-height: 100vh;
-}
-.gradientThree{
-    background: linear-gradient(to bottom, #e1bb80, #352208, #e1bb80);
-    min-height: 100vh;
+body.dark{
+    background-color: #282a3d;
+    color: #ECF0FF;
 }
 
-.one{
+.header{
     text-align: center;
-    padding-top: 20%;
+    padding: 2rem 1rem;
+}
+.header button{
+    cursor: pointer;
+    background-color: #282a3d;
+    color: #ECF0FF;
+    margin-left: 90%;
+    border-radius: 10px;
+    min-width: 90px;
+    min-height: 35px;
     font-family: 'brightersans';
 }
-.two{
-    text-align: center;
-    padding-top: 20%;
-    font-family: 'brightersans';
-    color:#eaebed;
+.header button:hover{
+    background-color: #fafafa;
+    color: #282a3d;
 }
-.three{
-    text-align: center;
-    padding-top: 20%;
-    font-family: 'brightersans';
-    color:aliceblue
+.header button.dark{
+    background-color: #ECF0FF;
+    color: #282a3d;
 }
+.header h1{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.header p{
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.content{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    perspective: 500px;
+    flex-wrap: wrap;
+}
+
+.upper{
+    margin-top: 20px;
+    color: white;
+}
+.down{
+    margin-top: 400px;
+    color: white;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    text-align: center;
+    min-width: 150px;
+    min-height: 500PX;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover, .box10:hover{
+    transform: translate3d(0px, 0px, 20px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.box1{
+    background: linear-gradient(to bottom, #FF8558, #00595C);
+}
+.box2{
+    background: linear-gradient(to bottom, #FF9974, #E05A39);
+}
+.box3{
+    background: linear-gradient(to bottom, #FF585B, #950002);
+}
+.box4{
+    background: linear-gradient(to bottom, #eaebed, #006989);
+}
+.box5{
+    background: linear-gradient(to bottom, #ECE4B7, #D9DD92);
+}
+.box6{
+    background: linear-gradient(to bottom, #928DAB, #1F1C2C);
+}
+.box7{
+    background: linear-gradient(to bottom, #FCF7F8, #A31621);
+}
+.box8{
+    background: linear-gradient(to bottom, #eaf2ef, #912f56);
+}
+.box9{
+    background: linear-gradient(to bottom, #97a87a, #dad7cd);
+}
+.box10{
+    background: linear-gradient(to bottom, #e1bb80, #352208);
+}
+
+/* From Chatghpt*/
+.box11:hover, .box12:hover, .box13:hover, .box14:hover, .box15:hover, .box16:hover, .box17:hover, .box18:hover, .box19:hover, .box20:hover{
+    transform: translate3d(0px, 0px, 20px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.box11, .box12, .box13, .box14, .box15, .box16, .box17, .box18, .box19, .box20{
+    text-align: center;
+    min-width: 150px;
+    min-height: 500PX;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+.box11 { background: linear-gradient(to bottom, #1C1C1C, #333333); }
+.box12 { background: linear-gradient(to bottom, #2E2B5F, #1A1A40); }
+.box13 { background: linear-gradient(to bottom, #3B0A45, #6A0572); }
+.box14 { background: linear-gradient(to bottom, #0B3D91, #001F4D); }
+.box15 { background: linear-gradient(to bottom, #004225, #002610); }
+.box16 { background: linear-gradient(to bottom, #4B1E1E, #1C0C0C); }
+.box17 { background: linear-gradient(to bottom, #1A1A1A, #0D0D0D); }
+.box18 { background: linear-gradient(to bottom, #2F1B4C, #170D26); }
+.box19 { background: linear-gradient(to bottom, #3C2F2F, #1B1414); }
+.box20 { background: linear-gradient(to bottom, #0D1B2A, #000814); }
+
+
+
+.box21, .box22, .box23, .box24, .box25,
+.box26, .box27, .box28, .box29, .box30 {
+    text-align: center;
+    min-width: 150px;
+    min-height: 500px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+}
+
+.box21:hover, .box22:hover, .box23:hover, .box24:hover, .box25:hover,
+.box26:hover, .box27:hover, .box28:hover, .box29:hover, .box30:hover {
+    transform: translate3d(0px, 0px, 20px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.box21 { background: linear-gradient(to bottom, #FF7F50, #FF6347); }
+.box22 { background: linear-gradient(to bottom, #6A5ACD, #836FFF); }
+.box23 { background: linear-gradient(to bottom, #20B2AA, #3CB371); }
+.box24 { background: linear-gradient(to bottom, #FF4500, #FF6347); }
+.box25 { background: linear-gradient(to bottom, #DA70D6, #BA55D3); }
+.box26 { background: linear-gradient(to bottom, #4682B4, #5F9EA0); }
+.box27 { background: linear-gradient(to bottom, #32CD32, #228B22); }
+.box28 { background: linear-gradient(to bottom, #FFA07A, #FA8072); }
+.box29 { background: linear-gradient(to bottom, #8A2BE2, #9370DB); }
+.box30 { background: linear-gradient(to bottom, #40E0D0, #48D1CC); }
+
