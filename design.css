@@ -26,6 +26,11 @@ body.dark{
     min-height: 35px;
     font-family: 'brightersans';
 }
+@media (max-width: 600px) {
+    .header button {
+        margin-left: 70%;
+    }
+}
 .header button:hover{
     background-color: #fafafa;
     color: #282a3d;
@@ -67,9 +72,22 @@ body.dark{
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3 ease;
 }
+@media (max-width: 600px) {
+    .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+        min-height: 200px;
+    }
+    .down{
+        margin-top: 120px;
+    }
+}
 .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover, .box10:hover{
     transform: translate3d(0px, 0px, 20px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+@media (hover: none){.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover, .box10:hover{
+    transform: none;
+    box-shadow: none;
+    }
 }
 
 .box1{
@@ -108,6 +126,11 @@ body.dark{
     transform: translate3d(0px, 0px, 20px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
+@media(hover: none){.box11:hover, .box12:hover, .box13:hover, .box14:hover, .box15:hover, .box16:hover, .box17:hover, .box18:hover, .box19:hover, .box20:hover, .box21:hover, .box22:hover, .box23:hover, .box24:hover, .box25:hover, .box26:hover, .box27:hover, .box28:hover, .box29:hover, .box30:hover{
+    transform: none;
+    box-shadow: none;
+    }
+}
 
 .box11, .box12, .box13, .box14, .box15, .box16, .box17, .box18, .box19, .box20{
     text-align: center;
@@ -139,8 +162,7 @@ body.dark{
     color: white;
 }
 
-.box21:hover, .box22:hover, .box23:hover, .box24:hover, .box25:hover,
-.box26:hover, .box27:hover, .box28:hover, .box29:hover, .box30:hover {
+.box21:hover, .box22:hover, .box23:hover, .box24:hover, .box25:hover, .box26:hover, .box27:hover, .box28:hover, .box29:hover, .box30:hover {
     transform: translate3d(0px, 0px, 20px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
