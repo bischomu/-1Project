@@ -170,8 +170,12 @@ body.dark{
 
 
 
-.upper-portait1{ color: #006989; }
-.down-portait1{ color: #eaebed; }
+.upper-portait1{
+     color: #006989; 
+}
+.down-portait1{
+     color: #eaebed; 
+}
 
 .upper-portait2{ color: #D9DD92; }
 .down-portait2{ color: #ECE4B7; }
@@ -231,40 +235,75 @@ body.dark{
 .down-portait20{ color: #010528; }
 
 .upper-portait21{ color: #010528; }
-.down-portait21{ color: #004B8E; }
-
-.upper-portait22{ color: #CF9893; }
-.down-portait22{ color: #6968A6; }
-
-.upper-portait23{ color: #6968A6; }
-.down-portait23{ color: #CF9893; }
-
-.upper-portait24{ color: #636FA4; }
-.down-portait24{ color: #E8CBC0; }
-
-.upper-portait25{ color: #E8CBC0; }
-.down-portait25{ color: #636FA4; }
-
-.upper-portait26{ color: #CBB4D4; }
-.down-portait26{ color: #20002C; }
-
-.upper-portait27{ color: #20002C; }
-.down-portait27{ color: #CBB4D4; }
-
-.upper-portait28{ color: #E94560; }
-.down-portait28{ color: #3E2F5B; }
-
-.upper-portait29{ color: #3F5E96; }
-.down-portait29{ color: #141E30; }
-
-.upper-portait30{ color: #141E30; }
-.down-portait30{ color: #3F5E96; }
-
-.upper-portait31{ color: #4E2A4F; }
-.down-portait31{ color: #2D1E2F; }
-
-.upper-portait32{ color: #2D1E2F; }
-.down-portait32{ color: #4E2A4F; }
+.down-portait21{
+     color: #004B8E; 
+}
+.upper-portait22{
+     color: #CF9893; 
+}
+.down-portait22{
+     color: #6968A6; 
+}
+.upper-portait23{
+     color: #6968A6; 
+}
+.down-portait23{
+     color: #CF9893; 
+}
+.upper-portait24{
+     color: #636FA4; 
+}
+.down-portait24{
+     color: #E8CBC0; 
+}
+.upper-portait25{
+     color: #E8CBC0; 
+}
+.down-portait25{
+     color: #636FA4; 
+}
+.upper-portait26{
+     color: #CBB4D4; 
+}
+.down-portait26{
+     color: #20002C; 
+}
+.upper-portait27{
+     color: #20002C; 
+}
+.down-portait27{
+     color: #CBB4D4; 
+}
+.upper-portait28{
+     color: #E94560; 
+}
+.down-portait28{
+     color: #3E2F5B; 
+}
+.upper-portait29{
+     color: #3F5E96; 
+}
+.down-portait29{
+     color: #141E30; 
+}
+.upper-portait30{
+     color: #141E30; 
+}
+.down-portait30{
+     color: #3F5E96; 
+}
+.upper-portait31{
+     color: #4E2A4F; 
+}
+.down-portait31{
+     color: #2D1E2F; 
+}
+.upper-portait32{
+     color: #2D1E2F; 
+}
+.down-portait32{
+     color: #4E2A4F; 
+}
 
 
 .upper-portait1, .upper-portait2, .upper-portait3, .upper-portait4, .upper-portait5, .upper-portait6, .upper-portait7, .upper-portait8, .upper-portait9, .upper-portait10,
@@ -477,10 +516,15 @@ section p{
     display: flex;
     flex-direction: column;
     }
+    footer{
+        margin: 0;
+        padding: 0;
+    }
     footer address {
-        flex-direction: column; 
         align-items: center;
         gap: 0.5rem;
+        margin: 0;
+        padding: 0;
     }
 
     footer address p {
@@ -519,4 +563,7 @@ footer address p {
 footer address a {
     text-decoration: none;
     color: black;
+}
+body.dark footer address a{
+    color: #ECF0FF;
 }
